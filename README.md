@@ -43,25 +43,6 @@ This project aims to develop and evaluate multiple ML models to predict credit s
 
 ---
 
-## 🚀 Usage
-
-```bash
-# Clone the repository
-git clone https://github.com/aryanvaghasiya/Credit-Score-Prediction.git
-cd Credit-Score-Prediction
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run training
-python train.py
-
-# Predict on test set
-python predict.py
-```
-
----
-
 ## 📊 Evaluation Metrics
 
 - Accuracy
@@ -75,15 +56,9 @@ python predict.py
 
 See `requirements.txt` for a full list.
 
----
-
-Got it, here's a shorter, more concise "How to Run" section for your `README.md`:
-
 -----
 
 ## How to Run
-
-Follow these steps to get the project up and running:
 
 1.  **Clone the Repository:**
 
@@ -109,7 +84,7 @@ Follow these steps to get the project up and running:
 4.  **Run the Script:**
 
     ```bash
-    python finalcreditbank.py
+    python3 finalcreditbank.py
     ```
 
     This script will train models, evaluate them, and generate prediction CSV files (e.g., `xgb_submission.csv`) in the project directory.
