@@ -77,12 +77,44 @@ See `requirements.txt` for a full list.
 
 ---
 
-## 👥 Contributors
+Got it, here's a shorter, more concise "How to Run" section for your `README.md`:
 
-- Aryan Vaghasiya (IMT2022046) — [aryan.vaghasiya@iiitb.ac.in](mailto:aryan.vaghasiya@iiitb.ac.in)
-- Areen Vaghasiya (IMT2022048) — [areen.vaghasiya@iiitb.ac.in](mailto:areen.vaghasiya@iiitb.ac.in)
-- Shreyank Gopalkrishna Bhat (IMT2022516) — [shreyank.bhat@iiitb.ac.in](mailto:shreyank.bhat@iiitb.ac.in)
+-----
 
+## How to Run
+
+Follow these steps to get the project up and running:
+
+1.  **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/aryanvaghasiya/Credit-Score-Prediction.git
+    cd Credit-Score-Prediction
+    ```
+
+2.  **Add Data Files:**
+    Place `train.csv` and `test.csv` directly into the project's root directory.
+
+3.  **Install Dependencies:**
+    It's recommended to use a virtual environment:
+
+    ```bash
+    python -m venv venv
+    # Windows: .\venv\Scripts\activate
+    # macOS/Linux: source venv/bin/activate
+
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the Script:**
+
+    ```bash
+    python finalcreditbank.py
+    ```
+
+    This script will train models, evaluate them, and generate prediction CSV files (e.g., `xgb_submission.csv`) in the project directory.
+
+-----
 ---
 
 ## 📌 License
